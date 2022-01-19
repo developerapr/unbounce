@@ -4,7 +4,8 @@ Be sure to first change your forms confirmation to 'Goto URL' and set a default 
 
 Drop this script into your javascript box. Set the placement to 'before body end tag' 
 
-`<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+```js
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script>
 $("#was_the_finance_arranged_through_a_broker").on('change', function() {
  
@@ -18,7 +19,8 @@ $("#was_the_finance_arranged_through_a_broker").on('change', function() {
   }
   
 });  
-</script>`
+</script>
+```
 Replace 'was_the_finance_arranged_through_a_broker' with the ID of your dropdown field.
 
 Modify or add as many different 'cases' as you need
